@@ -13,7 +13,7 @@ Sensitivity experiments reveal that ADAF can generate high-quality analysis even
 ADAF can assimilate massive observations within a three-hour window at low computational cost, taking about two seconds on an AMD MI200 graphics processing unit (GPU). 
 ADAF has been shown to be efficient and effective in real-world DA, underscoring its potential role in operational weather forecasting.
 
-![Figure: Overall framework](./assets/framework.png")
+![Figure: Overall framework]("/assets/framework.png")
 
 
 ## Data links
