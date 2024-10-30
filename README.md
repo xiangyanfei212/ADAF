@@ -41,7 +41,7 @@ You can modify the script to use a different h5 file that you processed yourself
 Once you have all the file listed above you should be ready to go.
 
 Run inference using
-'''
+```shell
 export CUDA_VISIBLE_DEVICES='0'
 
 seed=0
@@ -62,7 +62,7 @@ nohup python -u 03_inference.py \
     --overwrite=True \
     > inference.log 2>&1 &
 
-'''
+```
 
 
 ## Links
