@@ -84,7 +84,7 @@ Run inference using
 ```shell
 export CUDA_VISIBLE_DEVICES='0'
 
-nohup python -u 03_inference.py \
+nohup python -u inference.py \
     --seed=0 \
     --exp_dir='./exp/' \ 		# directory to save prediction 
     --test_data_path='./data/test' \ 	# path to test data
