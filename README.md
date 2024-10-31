@@ -20,6 +20,48 @@ ADAF has been shown to be efficient and effective in real-world DA, underscoring
 - Pre-processed data
   The pre-proccesd data consists of input-target pairs. The inputs include surface weather observations within a 3-hour window, GOES-16 satellite imagery within a 3-hour window, HRRR forecast, and topography. The target is a combination of RTMA and surface weather observations.
 ![Figure: Overall framework](/assets/pre-proccesd_data.png)
+
+<table>
+	<tr>
+	    <th colspan="3">计算机网络分层模型</th>
+	</tr >
+	<tr>
+	    <td >OSI七层模型</td>
+	    <td>TCP/IP四层模型</td>
+	    <td>TCP/IP五层模型</td>  
+	</tr >
+	<tr >
+	    <td>应用层</td>
+	    <td rowspan="3">应用层</td>
+	    <td rowspan="3">应用层</td>
+	</tr>
+	<tr>
+	    <td>表示层</td>
+	</tr>
+	<tr>
+	    <td>会话层</td>
+	</tr>
+	<tr>
+	    <td>传输层</td>
+	    <td>传输层</td>
+       <td>传输层</td>
+	</tr>
+	<tr>
+       <td>网络层</td>
+	    <td>网络层</td>
+       <td>网络层</td>
+	</tr>
+	<tr>
+	    <td>数据链路层</td>
+	    <td rowspan="2">网络接口层</td>
+       <td>数据链路层</td>
+	</tr>
+	<tr>
+	    <td>物理层</td>
+	    <td>物理层</td>
+	</tr>
+</table>
+
 - Trained model weights
 - Pre-computed normalization statistics
 
