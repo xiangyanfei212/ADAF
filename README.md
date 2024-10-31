@@ -39,13 +39,19 @@ ADAF has been shown to be efficient and effective in real-world DA, underscoring
 	    <td>3 hours</td>
 	    <td>Q, T2M, U10, V10</td>  
 	</tr>
+ 	<tr>
+	    <td>HRRR forecast</td>
+	    <td>N/A</td>
+	    <td>Q, T2M, U10, V10</td>  
+	</tr>
+ 	<tr>
+	    <td>Topography</td>
+	    <td>N/A</td>
+	    <td>N/A</td>  
+	</tr>
+ 	
 
-	<tr>
-	    <td>表示层</td>
-	</tr>
-	<tr>
-	    <td>会话层</td>
-	</tr>
+	
 
 
 
