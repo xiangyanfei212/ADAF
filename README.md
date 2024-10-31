@@ -34,6 +34,11 @@ ADAF has been shown to be efficient and effective in real-world DA, underscoring
 	    <td>3 hours</td>
 	    <td>Q, T2M, U10, V10</td>  
 	</tr>
+ 	<tr>
+	    <td>GOES-16 satellite imagery</td>
+	    <td>3 hours</td>
+	    <td>Q, T2M, U10, V10</td>  
+	</tr>
 
 	<tr>
 	    <td>表示层</td>
