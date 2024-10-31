@@ -19,54 +19,47 @@ ADAF has been shown to be efficient and effective in real-world DA, underscoring
 ## Data
 - Pre-processed data
   The pre-proccesd data consists of input-target pairs. The inputs include surface weather observations within a 3-hour window, GOES-16 satellite imagery within a 3-hour window, HRRR forecast, and topography. The target is a combination of RTMA and surface weather observations.
-![Figure: Overall framework](/assets/pre-proccesd_data.png)
 
-<table>
-	<tr>
-	    <td></td>
-	    <td>Dataset</td>
-	    <td>Time window</td>
-	    <td>Variables/Bands</td>
-	</tr>
-	<tr>
-	    <td rowspan="4">Input</td>
-	    <td>Surface weather observations</td>
-	    <td>3 hours</td>
-	    <td>Q, T2M, U10, V10</td>  
-	</tr>
- 	<tr>
-	    <td>GOES-16 satellite imagery</td>
-	    <td>3 hours</td>
-	    <td>Q, T2M, U10, V10</td>  
-	</tr>
- 	<tr>
-	    <td>HRRR forecast</td>
-	    <td>N/A</td>
-	    <td>Q, T2M, U10, V10</td>  
-	</tr>
- 	<tr>
-	    <td>Topography</td>
-	    <td>N/A</td>
-	    <td>N/A</td>  
-	</tr>
- 	<tr>
-	    <td rowspan="2">Target</td>
-	    <td>RTMA</td>
-	    <td>N/A</td>
-	    <td>Q, T2M, U10, V10</td>  
-	</tr>
- 	<tr>
-	    <td>Surface weather observations</td>
-	    <td>N/A</td>
-	    <td>Q, T2M, U10, V10</td> 
-	</tr>
- 	
-
-	
-
-
-
-</table>
+	<table>
+		<tr>
+		    <td></td>
+		    <td>Dataset</td>
+		    <td>Time window</td>
+		    <td>Variables/Bands</td>
+		</tr>
+		<tr>
+		    <td rowspan="4">Input</td>
+		    <td>Surface weather observations</td>
+		    <td>3 hours</td>
+		    <td>Q, T2M, U10, V10</td>  
+		</tr>
+	 	<tr>
+		    <td>GOES-16 satellite imagery</td>
+		    <td>3 hours</td>
+		    <td>Q, T2M, U10, V10</td>  
+		</tr>
+	 	<tr>
+		    <td>HRRR forecast</td>
+		    <td>N/A</td>
+		    <td>Q, T2M, U10, V10</td>  
+		</tr>
+	 	<tr>
+		    <td>Topography</td>
+		    <td>N/A</td>
+		    <td>N/A</td>  
+		</tr>
+	 	<tr>
+		    <td rowspan="2">Target</td>
+		    <td>RTMA</td>
+		    <td>N/A</td>
+		    <td>Q, T2M, U10, V10</td>  
+		</tr>
+	 	<tr>
+		    <td>Surface weather observations</td>
+		    <td>N/A</td>
+		    <td>Q, T2M, U10, V10</td> 
+		</tr>
+	</table>
 
 - Trained model weights
 - Pre-computed normalization statistics
