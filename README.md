@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/48d77575-4c61-4346-bf16-4245474b3dbc)# ADAF
+# ADAF
 
 This repository contains the code used for "ADAF: An Artificial Intelligence Data Assimilation Framework for Weather Forecasting"
 
