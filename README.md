@@ -18,6 +18,7 @@ ADAF has been shown to be efficient and effective in real-world DA, underscoring
 
 ## Data
 - Pre-processed data
+  
   The pre-proccesd data consists of input-target pairs. The inputs include surface weather observations within a 3-hour window, GOES-16 satellite imagery within a 3-hour window, HRRR forecast, and topography. The target is a combination of RTMA and surface weather observations.
 
 	<table>
