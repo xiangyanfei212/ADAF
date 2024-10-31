@@ -84,22 +84,13 @@ Run inference using
 ```shell
 export CUDA_VISIBLE_DEVICES='0'
 
-seed=0
-exp_dir='./exp/'              # directory to save prediction 
-net_config='EncDec'           # Network configuration
-test_data_path='./data/test'  # path to test data
-inference_time_file='./utils/test_date.txt'  # Generate analysis at these time
-hold_out_obs_ratio=0.3        # the ratio of surface observation be inputted to model
-
 nohup python -u 03_inference.py \
-    --seed=${seed} \
-    --exp_dir=${exp_dir} \
-    --test_data_path=${test_data_path} \
-    --net_config=${net_config} \
-    --hold_out_obs_ratio=${hold_out_obs_ratio} \
-    --inference_by_time=False \
-    --inference_time_file=${inference_time_file} \
-    --overwrite=True \
+    --seed=0 \
+    --exp_dir='./exp/' \ 		# directory to save prediction 
+    --test_data_path='./data/test' \ 	# path to test data
+    --net_config='EncDec' \		# Network configuration
+    --hold_out_obs_ratio=0.3 \		# the ratio of surface observation be inputted to model
+    --inference_time_file=${inference_time_file} \ # Generate analysis at these time
     > inference.log 2>&1 &
 
 ```
