@@ -42,6 +42,8 @@ full_field: &FULL_FIELD
   field_tar_vars: ["rtma_q", "rtma_t", "rtma_u10", "rtma_v10"] # "rtma_sp"
   target_vars: ["q", "t", "u10", "v10"] # "sp"
 
+  learn_residual: True
+
   input_time_feature: False # use inp_ausiliary_vars if True
   inp_auxiliary_vars: ["hour"]
 
