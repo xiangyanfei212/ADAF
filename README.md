@@ -23,43 +23,27 @@ ADAF has been shown to be efficient and effective in real-world DA, underscoring
 
 <table>
 	<tr>
-	    <th colspan="3">计算机网络分层模型</th>
-	</tr >
-	<tr>
-	    <td >OSI七层模型</td>
-	    <td>TCP/IP四层模型</td>
-	    <td>TCP/IP五层模型</td>  
-	</tr >
-	<tr >
-	    <td>应用层</td>
-	    <td rowspan="3">应用层</td>
-	    <td rowspan="3">应用层</td>
+	    <td></td>
+	    <td>Dataset</td>
+	    <td>Time window</td>
+	    <td>Variables/Bands</td>
 	</tr>
+	<tr>
+	    <td rowspan="4">Input</td>
+	    <td>Surface weather observations</td>
+	    <td>3 hours</td>
+	    <td>Q, T2M, U10, V10</td>  
+	</tr>
+
 	<tr>
 	    <td>表示层</td>
 	</tr>
 	<tr>
 	    <td>会话层</td>
 	</tr>
-	<tr>
-	    <td>传输层</td>
-	    <td>传输层</td>
-       <td>传输层</td>
-	</tr>
-	<tr>
-       <td>网络层</td>
-	    <td>网络层</td>
-       <td>网络层</td>
-	</tr>
-	<tr>
-	    <td>数据链路层</td>
-	    <td rowspan="2">网络接口层</td>
-       <td>数据链路层</td>
-	</tr>
-	<tr>
-	    <td>物理层</td>
-	    <td>物理层</td>
-	</tr>
+
+
+
 </table>
 
 - Trained model weights
