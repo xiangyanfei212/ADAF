@@ -1,1 +1,82 @@
+### base config ###
+# -*- coding: utf-8 -*-
+full_field: &FULL_FIELD
+  lr: 1E-3 # 1e-4 cause loss nan for VA
+  max_epochs: 1200
+  valid_frequency: 5
+
+  optimizer_type: "AdamW" # Adam, FusedAdam, SWA
+
+  scheduler: "ReduceLROnPlateau" # ReduceLROnPlateau, MultiplicativeLR
+  lr_reduce_factor: 0.65
+
+  num_data_workers: 8 # 0
+  # gridtype: 'sinusoidal'    # options 'sinusoidal' or 'linear'
+  enable_nhwc: !!bool False
+
+  # directory path to store training checkpoints and other output
+  exp_dir: "./exp"
+
+  # directory path to store dataset for train, valid, and test
+  data_path: "./data/"
+  train_data_path: "./data/train"
+  valid_data_path: "./data/valid"
+  test_data_path: "./data/test"
+
+  # normalization
+  norm_type: "variable_wise_ignore_extreme" # options: channel_wise, variable_wise, variable_wise_ignore_extreme
+  normalization: "minmax_ignore_extreme" # options: minmax, zscore, minmax_ignore_extreme, scale
+
+  add_noise: False
+
+  N_in_channels: 21
+  N_out_channels: 5
+  
+  bg_ensemble_num: 1 # 3
+  obs_time_window: 3 # if 3, use observation at analysis time
+
+  inp_hrrr_vars: ['hrrr_q', 'hrrr_t', 'hrrr_u_10', 'hrrr_v_10'] # 'hrrr_sp'
+  inp_satelite_vars: ['CMI02', 'CMI07', 'CMI14', 'CMI10']
+  inp_obs_vars: ["sta_q", "sta_t", "sta_u10", "sta_v10"] # "sta_p"
+  hold_out_obs: True
+  field_tar_vars: ["rtma_q", "rtma_t", "rtma_u10", "rtma_v10"] # "rtma_sp"
+  target_vars: ["q", "t", "u10", "v10"] # "sp"
+
+  input_time_feature: False # use inp_ausiliary_vars if True
+  inp_auxiliary_vars: ["hour"]
+
+  stack_channel_by_var: False
+
+  save_model_freq: 5
+  log_to_screen: !!bool True
+  log_to_wandb: !!bool True
+  save_checkpoint: !!bool True
+
+EncDec: &EncDec
+  <<: *FULL_FIELD
+  nettype: "EncDec"
+  lr: 2E-3
+  upscale: 1
+  in_chans: 29 # 33
+  out_chans: 4 
+  img_size_x: 1280
+  img_size_y: 512
+  window_size: 4
+  patch_size: 4 # 1 # need be divisible by img_size
+  num_feat: 64
+  drop_rate: 0.1
+  drop_path_rate: 0.1
+  attn_drop_rate: 0.1
+  ape: False
+  patch_norm: True
+  use_checkpoint: False
+  resi_connection: "1conv"
+  qkv_bias: True
+  qk_scale: None
+  img_range: 1.
+  depths: [3] # [3]
+  embed_dim: 64 # need be divisible by num_heads
+  num_heads: [4] # [16]
+  mlp_ratio: 2 # 2
+  upsampler: "pixelshuffle"
 
