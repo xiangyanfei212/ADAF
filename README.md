@@ -49,6 +49,17 @@ ADAF has been shown to be efficient and effective in real-world DA, underscoring
 	    <td>N/A</td>
 	    <td>N/A</td>  
 	</tr>
+ 	<tr>
+	    <td rowspan="2">Target</td>
+	    <td>RTMA</td>
+	    <td>N/A</td>
+	    <td>Q, T2M, U10, V10</td>  
+	</tr>
+ 	<tr>
+	    <td>Surface weather observations</td>
+	    <td>N/A</td>
+	    <td>Q, T2M, U10, V10</td> 
+	</tr>
  	
 
 	
