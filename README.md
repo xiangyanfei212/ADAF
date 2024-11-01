@@ -107,8 +107,8 @@ nohup python -u inference.py \
     --seed=0 \
     --exp_dir='./exp/' \ 		# directory to save prediction 
     --test_data_path='./data/test' \ 	# path to test data
-    --net_config='EncDec' \		# Network configuration
-    --hold_out_obs_ratio=0.3 \		# the ratio of surface observation be inputted to model
+    --net_config='EncDec' \		# network configuration
+    --hold_out_obs_ratio=0.3 \		# the ratio of surface observations to be fed into the model
     > inference.log 2>&1 &
 
 ```
