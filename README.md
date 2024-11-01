@@ -12,7 +12,7 @@ Traditional DA methods often face a trade-off between computational cost and acc
 ## Data
 - Pre-processed data
   
-  The pre-proccesd data consists of input-target pairs. The inputs include surface weather observations within a 3-hour window, GOES-16 satellite imagery within a 3-hour window, HRRR forecast, and topography. The target is a combination of RTMA and surface weather observations. The table below summarizes the input and target datasets utilized in this study. All data were regularized to grids of size 512$\times$1280 with a spatial resolution of 0.05 $\times$ 0.05 $^\circ$. 
+  The pre-proccesd data consists of input-target pairs. The inputs include surface weather observations within a 3-hour window, GOES-16 satellite imagery within a 3-hour window, HRRR forecast, and topography. The target is a combination of RTMA and surface weather observations. The table below summarizes the input and target datasets utilized in this study. All data were regularized to grids of size 512 $\times$ 1280 with a spatial resolution of 0.05 $\times$ 0.05 $^\circ$. 
 	<table>
 		<tr>
 		    <td></td>
@@ -22,7 +22,7 @@ Traditional DA methods often face a trade-off between computational cost and acc
 		    <td><b>Variables/Bands</b></td>
 		</tr>
 		<tr>
-		    <td rowspan="4">Input</td>
+		    <td rowspan="4"><b>Input</b></td>
 		    <td>Surface weather observations</td>
 		    <td>WeatherReal-Synoptic (Jin et al., 2024)</td>
 		    <td>3 hours</td>
@@ -47,7 +47,7 @@ Traditional DA methods often face a trade-off between computational cost and acc
 		    <td>Geopotential</td>  
 		</tr>
 	 	<tr>
-		    <td rowspan="2">Target</td>
+		    <td rowspan="2"><b>Target</b></td>
 		    <td>Analysis</td>
 		    <td>RTMA (Pondeca et al., 2011)</td>
 		    <td>N/A</td>
