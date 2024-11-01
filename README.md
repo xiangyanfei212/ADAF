@@ -63,6 +63,7 @@ Traditional DA methods often face a trade-off between computational cost and acc
 
 	
 - Pre-computed normalization statistics
+	If you are utilizing the pre-trained model weights that we provided, it is crucial that you utilize of the given statistics as these were used during model training. The learned model weights complement the normalizing statistics exactly.
   
   The data directory of pre-processed data and pre-computed normalization statistics is organized as follows:
   ```
