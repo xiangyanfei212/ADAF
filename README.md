@@ -82,13 +82,13 @@ Traditional DA methods often face a trade-off between computational cost and acc
 ## Inference
 In order to run ADAF in inference mode you will need to have the following files on hand.
 
-1. The path to the test sample file.
+1. The path to the test sample file. (./data/test/)
 
-2. The inference script
+2. The inference script (inference.py)
 
-3. The model weights hosted at Trained Model Weights。
+3. The model weights hosted at Trained Model Weights。 (./model_weights/model_trained.ckpt)
 
-4. The Pre-computed normalization statistics
+4. The Pre-computed normalization statistics (./data/stats.csv)
 
 5. The configuration file (./config/experiment.yaml)
 
