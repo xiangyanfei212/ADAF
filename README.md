@@ -63,7 +63,7 @@ Traditional DA methods often face a trade-off between computational cost and acc
 
 	The data directory is organized as follows:
 	```
-	FCN_ERA5_data_v0
+	data
 	│   README.md
 	└───test
 	│   │   2022-10-11_00.nc*
@@ -73,6 +73,10 @@ Traditional DA methods often face a trade-off between computational cost and acc
 - Pre-computed normalization statistics
 
 - Trained model weights
+  ```
+  model_weights/
+  │   model_trained.ckpt
+  ```
 
 ## Inference
 In order to run ADAF in inference mode you will need to have the following files on hand.
