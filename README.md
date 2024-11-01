@@ -69,7 +69,11 @@ Traditional DA methods often face a trade-off between computational cost and acc
   data
   │   README.md
   └───test
-  │   │   2022-10-11_00.nc
+  │   │   2022-10-01_00.nc
+  │   │   2022-10-02_06.nc
+  │   │   2022-10-03_12.nc
+  │   │   ...
+  │   │   2023-10-31_00.nc
   └───stats.csv
   ```
 
@@ -88,7 +92,7 @@ In order to run ADAF in inference mode you will need to have the following files
 
 3. The model weights hosted at Trained Model Weights。 (./model_weights/model_trained.ckpt)
 
-4. The Pre-computed normalization statistics (./data/stats.csv)
+4. The pre-computed normalization statistics (./data/stats.csv)
 
 5. The configuration file (./config/experiment.yaml)
 
