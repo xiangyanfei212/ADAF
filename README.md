@@ -17,39 +17,45 @@ Traditional DA methods often face a trade-off between computational cost and acc
 		<tr>
 		    <td></td>
 		    <td>Dataset</td>
+		    <td>Source</td>
 		    <td>Time window</td>
 		    <td>Variables/Bands</td>
 		</tr>
 		<tr>
 		    <td rowspan="4">Input</td>
 		    <td>Surface weather observations</td>
-		    <td>3 hours</td>
-		    <td>0.64, 3.9, 7.3, 11.2 $\mu m$</td>  
-		</tr>
-	 	<tr>
-		    <td>GOES-16 satellite imagery</td>
+		    <td>WeatherReal-Synoptic (Jin et al., 2024)</td>
 		    <td>3 hours</td>
 		    <td>Q, T2M, U10, V10</td>  
 		</tr>
 	 	<tr>
-		    <td>HRRR forecast</td>
+		    <td>Satellite imagery</td>
+                    <td>GOES-16 (Tan et al., 2019)</td>
+		    <td>3 hours</td>
+		    <td>0.64, 3.9, 7.3, 11.2 $\mu m$</td>  
+		</tr>
+	 	<tr>
+		    <td>Background</td>
+ 		    <td>HRRR forecast (Dowell et al., 2022)</td>
 		    <td>N/A</td>
 		    <td>Q, T2M, U10, V10</td>  
 		</tr>
 	 	<tr>
 		    <td>Topography</td>
+		    <td>ERA5 (Hersbach et al., 2019)</td>
 		    <td>N/A</td>
 		    <td>N/A</td>  
 		</tr>
 	 	<tr>
 		    <td rowspan="2">Target</td>
-		    <td>RTMA</td>
+		    <td>Analysis</td>
+		    <td>Real-Time Mesoscale Analysis (RTMA) (Pondeca et al., 2011)</td>
 		    <td>N/A</td>
 		    <td>Q, T2M, U10, V10</td>  
 		</tr>
 	 	<tr>
 		    <td>Surface weather observations</td>
-		    <td>N/A</td>
+		    <td>WeatherReal-Synoptic (Jin et al., 2024)</td>
 		    <td>Q, T2M, U10, V10</td> 
 		</tr>
 	</table>
