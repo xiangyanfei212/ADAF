@@ -24,7 +24,7 @@ Traditional DA methods often face a trade-off between computational cost and acc
 		    <td rowspan="4">Input</td>
 		    <td>Surface weather observations</td>
 		    <td>3 hours</td>
-		    <td>Q, T2M, U10, V10</td>  
+		    <td>0.64, 3.9, 7.3, 11.2 $\mu m$</td>  
 		</tr>
 	 	<tr>
 		    <td>GOES-16 satellite imagery</td>
