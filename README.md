@@ -44,7 +44,7 @@ Traditional DA methods often face a trade-off between computational cost and acc
 		    <td>Topography</td>
 		    <td>ERA5 (Hersbach et al., 2019)</td>
 		    <td>N/A</td>
-		    <td>N/A</td>  
+		    <td>Geopotential</td>  
 		</tr>
 	 	<tr>
 		    <td rowspan="2">Target</td>
