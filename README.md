@@ -61,16 +61,17 @@ Traditional DA methods often face a trade-off between computational cost and acc
 		</tr>
 	</table>
 
-	The data directory is organized as follows:
-	```
-	data
-	│   README.md
-	└───test
-	│   │   2022-10-11_00.nc*
-	└───stats.csv
-	```
-
+	
 - Pre-computed normalization statistics
+  
+  The data directory of pre-processed data and pre-computed normalization statistics is organized as follows:
+  ```
+  data
+  │   README.md
+  └───test
+  │   │   2022-10-11_00.nc
+  └───stats.csv
+  ```
 
 - Trained model weights
   ```
