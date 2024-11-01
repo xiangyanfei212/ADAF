@@ -12,11 +12,11 @@ Traditional DA methods often face a trade-off between computational cost and acc
 ## Data
 - Pre-processed data
   
-  The pre-proccesd data consists of input-target pairs. The inputs include surface weather observations within a 3-hour window, GOES-16 satellite imagery within a 3-hour window, HRRR forecast, and topography. The target is a combination of RTMA and surface weather observations. The table below summarizes the input and target datasets utilized in this study.
+  The pre-proccesd data consists of input-target pairs. The inputs include surface weather observations within a 3-hour window, GOES-16 satellite imagery within a 3-hour window, HRRR forecast, and topography. The target is a combination of RTMA and surface weather observations. The table below summarizes the input and target datasets utilized in this study. All data were regularized to grids of size $512 \times 1280$ with a spatial resolution of $0.05 \times 0.05 ^\circ$. 
 	<table>
 		<tr>
 		    <td></td>
-		    <td>Dataset</td>
+		    <td>**Dataset**</td>
 		    <td>Source</td>
 		    <td>Time window</td>
 		    <td>Variables/Bands</td>
