@@ -61,8 +61,35 @@ Traditional DA methods often face a trade-off between computational cost and acc
 		</tr>
 	</table>
 
-- Trained model weights
+	The data directory is organized as follows:
+	FCN_ERA5_data_v0
+	│   README.md
+	└───train
+	│   │   1979.h5
+	│   │   1980.h5
+	│   │   ...
+	│   │   ...
+	│   │   2015.h5
+	│   
+	└───test
+	│   │   2016.h5
+	│   │   2017.h5
+	│
+	└───out_of_sample
+	│   │   2018.h5
+	│
+	└───static
+	│   │   orography.h5
+	│
+	└───precip
+	│   │   train/
+	│   │   test/
+	│   │   out_of_sample/
+
+
 - Pre-computed normalization statistics
+
+- Trained model weights
 
 ## Inference
 In order to run ADAF in inference mode you will need to have the following files on hand.
