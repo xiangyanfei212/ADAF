@@ -49,13 +49,14 @@ Traditional DA methods often face a trade-off between computational cost and acc
 	 	<tr>
 		    <td rowspan="2">Target</td>
 		    <td>Analysis</td>
-		    <td>Real-Time Mesoscale Analysis (RTMA) (Pondeca et al., 2011)</td>
+		    <td>RTMA (Pondeca et al., 2011)</td>
 		    <td>N/A</td>
 		    <td>Q, T2M, U10, V10</td>  
 		</tr>
 	 	<tr>
 		    <td>Surface weather observations</td>
 		    <td>WeatherReal-Synoptic (Jin et al., 2024)</td>
+		    <td>N/A</td>
 		    <td>Q, T2M, U10, V10</td> 
 		</tr>
 	</table>
