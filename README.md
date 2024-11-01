@@ -62,6 +62,7 @@ Traditional DA methods often face a trade-off between computational cost and acc
 	</table>
 
 	The data directory is organized as follows:
+	```
 	FCN_ERA5_data_v0
 	│   README.md
 	└───train
@@ -85,7 +86,7 @@ Traditional DA methods often face a trade-off between computational cost and acc
 	│   │   train/
 	│   │   test/
 	│   │   out_of_sample/
-
+	```
 
 - Pre-computed normalization statistics
 
