@@ -99,7 +99,7 @@ In order to run ADAF in inference mode you will need to have the following files
 
 Once you have all the file listed above you should be ready to go.
 
-Run inference using
+An example launch script for inference is provided. 
 ```shell
 export CUDA_VISIBLE_DEVICES='0'
 
