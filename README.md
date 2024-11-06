@@ -10,10 +10,10 @@ Traditional DA methods often face a trade-off between computational cost and acc
 
 
 ## Data
-The data used in this work can be download from [Pre-processed Data - Zenodo Download Link](https://zenodo.org/records/14020879).
-
 - Pre-processed data
-  
+
+  [Link for Pre-processed Data - Zenodo Download Link](https://zenodo.org/records/14020879)
+
   The pre-proccesd data consists of input-target pairs. The inputs include surface weather observations within a 3-hour window, GOES-16 satellite imagery within a 3-hour window, HRRR forecast, and topography. The target is a combination of RTMA and surface weather observations. The table below summarizes the input and target datasets utilized in this study. All data were regularized to grids of size 512 $\times$ 1280 with a spatial resolution of 0.05 $\times$ 0.05 $^\circ$. 
 	<table>
 		<tr>
@@ -65,7 +65,10 @@ The data used in this work can be download from [Pre-processed Data - Zenodo Dow
 
 	
 - Pre-computed normalization statistics
-	If you are utilizing the pre-trained model weights that we provided, it is crucial that you utilize of the given statistics as these were used during model training. The learned model weights complement the normalizing statistics exactly.
+
+  [Link for pre-computed normalization statistics- Zenodo Download Link](https://zenodo.org/records/14020879).
+
+  If you are utilizing the pre-trained model weights that we provided, it is crucial that you utilize of the given statistics as these were used during model training. The learned model weights complement the normalizing statistics exactly.
   
   The data directory of pre-processed data and pre-computed normalization statistics is organized as follows:
   ```
@@ -81,6 +84,9 @@ The data used in this work can be download from [Pre-processed Data - Zenodo Dow
   ```
 
 - Trained model weights
+
+  [Link for trained model weights - Zenodo Download Link](https://zenodo.org/records/14020879)
+
   ```
   model_weights/
   │   model_trained.ckpt
@@ -116,13 +122,6 @@ nohup python -u inference.py \
 ```
 
 
-## Links
-
-[Link for Pre-processed Data - Zenodo Download Link](https://zenodo.org/records/14020879).
-
-[Link for trained model weights - Zenodo Download Link](https://zenodo.org/records/14020879).
-
-[Link for pre-computed normalization statistics- Zenodo Download Link](https://zenodo.org/records/14020879).
 
 ## References
 
