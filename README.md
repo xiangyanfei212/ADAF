@@ -63,14 +63,6 @@ The data used in this work can be download from [Pre-processed Data - Zenodo Dow
 		</tr>
 	</table>
 
- 
-
-
-
-This study utilized 2, 7, 10, and 14 bands with cen-263
-tral shortwaves of 0.64, 3.9, 7.3, and 11.2 μm, 
-
-ABI Band 7: Shortwave IR
 	
 - Pre-computed normalization statistics
 	If you are utilizing the pre-trained model weights that we provided, it is crucial that you utilize of the given statistics as these were used during model training. The learned model weights complement the normalizing statistics exactly.
