@@ -10,7 +10,7 @@ Traditional DA methods often face a trade-off between computational cost and acc
 
 
 ## Data
-The data used in this work can be download from [link of Zenodo].
+The data used in this work can be download from [Pre-processed Data - Zenodo Download Link](https://zenodo.org/records/14020879).
 
 - Pre-processed data
   
@@ -126,11 +126,11 @@ nohup python -u inference.py \
 
 ## Links
 
-[Link for Pre-processed Data]
+[Link for Pre-processed Data - Zenodo Download Link](https://zenodo.org/records/14020879).
 
-[Link for Pre-processed trained model weights]
+[Link for trained model weights - Zenodo Download Link](https://zenodo.org/records/14020879).
 
-[Link for pre-computed normalization statistics]
+[Link for pre-computed normalization statistics- Zenodo Download Link](https://zenodo.org/records/14020879).
 
 ## References
 
