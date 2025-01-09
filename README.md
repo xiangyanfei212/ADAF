@@ -1,3 +1,5 @@
+Notice: The complete version can be found in https://github.com/microsoft/ADAF/tree/main
+
 # ADAF
 
 This repository contains the code used for "ADAF: An Artificial Intelligence Data Assimilation Framework for Weather Forecasting"
