@@ -13,7 +13,7 @@ The forecasting skill of numerical weather prediction (NWP) models critically de
 ## Data
 - Pre-processed data
 
-  [Link for Pre-processed Data - Zenodo Download Link](https://zenodo.org/records/14020878)
+  [Link for Pre-processed Data - Zenodo Download Link](https://zenodo.org/records/14020879)
 
   The pre-proccesd data consists of input-target pairs. The inputs include surface weather observations within a 3-hour window, GOES-16 satellite imagery within a 3-hour window, HRRR forecast, and topography. The target is a combination of RTMA and surface weather observations. The table below summarizes the input and target datasets utilized in this study. All data were regularized to grids of size 512 $\times$ 1280 with a spatial resolution of 0.05 $\times$ 0.05 $^\circ$. 
 	<table>
@@ -86,7 +86,7 @@ The forecasting skill of numerical weather prediction (NWP) models critically de
 
 - Trained model weights
 
-  [Link for trained model weights - Zenodo Download Link](https://zenodo.org/records/14020878)
+  [Link for trained model weights - Zenodo Download Link](https://zenodo.org/records/14020879)
 
   ```
   model_weights/
